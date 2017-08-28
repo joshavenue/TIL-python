@@ -1,0 +1,6 @@
+def loopy(items):            // Gives a name to the function and provides the list (items).
+    for item in items:       // Each item in the list will be assigned to the item variable.
+        if item is "STOP":   // If an item in the items list is "STOP"...
+            break            // stop the loop.
+        else:                // If an item in the items list is anything but "STOP"...
+             print(item)     // print the item.
